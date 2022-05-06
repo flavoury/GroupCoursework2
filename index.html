@@ -15,7 +15,11 @@
             <div class="row mt-4">
                 <div class="col-sm-3" v-for="lesson in lessons">
                     <div class="card rounded-0">
-                      
+                        <div class="card-body">
+                            <p class="m-0"><strong>Topic:</strong> {{lesson.topic}}</p>
+                            <p class="m-0"><strong>Location:</strong> {{lesson.location}}</p>
+                            <p class="m-0"><strong>Price:</strong> $ {{lesson.price}}</p>
+                        </div>
                     </div>
                 </div>
             </div>
